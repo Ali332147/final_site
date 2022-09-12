@@ -31,6 +31,9 @@
                         <a href="#portfolio" class="nav-link fw-bold fs-5">Portfolio</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#selenium" class="nav-link fw-bold fs-5">Selenium</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#blog" class="nav-link fw-bold fs-5">Blog</a>
                     </li>
                     <li class="nav-item">
@@ -145,6 +148,71 @@
         </div>
     </section>
     <!-- section about end -->
+    <!-- section Seleniun start -->
+    <section id="selenium" class="container py-5">
+        <div class="text-center py-5 text-dark">
+            <h2 class="fw-bolder text-uppercase">
+                Selenium
+            </h2>
+            
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="card">
+                     <div class="card-body text-center">
+                        <h5 class="card-title text-center py-2">
+                           <h5> Radio Button</h5>
+                            <input type="radio" name="radio-2" class="radio radio-primary" checked />
+                            <input type="radio" name="radio-2" class="radio radio-primary" />
+                            <input type="radio" name="radio-2" class="radio radio-primary" checked />
+<input type="radio" name="radio-2" class="radio radio-primary" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center py-2">
+                            Selection Button
+                        </h5>
+
+  <!-- md -->
+  <select class="select select-bordered w-full max-w-xs">
+    <option disabled selected>Normal</option>
+    <option>Normal Apple</option>
+    <option>Normal Orange</option>
+    <option>Normal Tomato</option>
+  </select>
+         </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                     <div class="card-body text-center">
+                        <h5 class="card-title text-center py-2">
+                            CheckBox Button
+                        </h5>
+                        
+<div class="custom__cb">
+    <input type="checkbox" id="chkbox1" name="styleguide_cb1"><label for="styleguide_cb1_1">Checkbox1</label>
+</div>
+<div class="custom__cb">
+    <input type="checkbox" id="chkbox2" name="styleguide_cb1"><label for="styleguide_cb1_1">Checkbox2</label>
+</div>
+<div class="custom__cb">
+    <input type="checkbox" id="chkbox3" name="styleguide_cb1"><label for="styleguide_cb1_1">Checkbox3</label>
+</div>
+
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section selenium end -->
     <!-- section Portfolio start -->
     <section id="portfolio" class="bg-dark py-5">
         <div class="container">
@@ -300,25 +368,25 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="email" class="form-label">
+                        <label for="email" id="email" class="form-label">
                             <p class="fw-bold fs-4">Your Email : </p>
                         </label>
                         <input placeholder="Enter Valid Email here" type="email" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label for="subject" class="form-label">
+                        <label for="subject" id="subject" class="form-label">
                             <p class="fw-bold fs-4">Your Subject : </p>
                         </label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">
+                        <label for="message" id="msg" class="form-label">
                             <p class="fw-bold fs-4">Your message : </p>
                         </label>
                         <textarea name="message" cols="" rows="7" placeholder="Type something Here"
                             class="form-control"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger">Send message</button>
+                    <button type="submit" id="submit" class="btn btn-danger">Send message</button>
                 </form>
             </div>
         </div>
@@ -354,6 +422,7 @@
     <!-- section footer start-->
     <footer class="bg-light">
         <div class="container text-center">
+            
             <p class="mb-0 py-3 fs-5">All rights reserved
                 <a class="text-danger" href="https://ali332147.github.io/My-CV-File/" target="_blank">Download My Cv</a>
             </p>
